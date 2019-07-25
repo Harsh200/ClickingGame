@@ -1,6 +1,7 @@
 from tkinter import *
 
 def newGame():
+    print("New Game")
 
 
 
