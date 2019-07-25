@@ -1,6 +1,7 @@
 from tkinter import *
 
 def newGame():
+    global time,score
     print("New Game")
     time=10
     score=0
