@@ -1,5 +1,8 @@
 from tkinter import *
 from random import randint
+from threading import Timer
+
+
 
 def newGame():
     global time,score
