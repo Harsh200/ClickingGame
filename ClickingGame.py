@@ -9,6 +9,7 @@ window.geometry(str(windowWidth)+"x"+str(windowHeight))
 
 mainMenu=Menu(window)
 window.config(menu=mainMenu)
+mainMenu.add_command(label="New Game",command=newGame)
 
 
 window.mainloop()
