@@ -16,6 +16,7 @@ def clicked():
     global score
     score+=1
     clickMe.place(x=randint(buttonWidth,windowWidth-buttonWidth),y=randint(buttonHeight,windowHeight-buttonHeight))
+    mainMenu.entryconfigure(3,label="Score= "+str(score))
 
 
 
