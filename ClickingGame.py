@@ -1,5 +1,7 @@
 from tkinter import *
 
+def newGame():
+
 window=Tk()
 time=10
 score=0
