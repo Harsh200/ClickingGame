@@ -33,7 +33,7 @@ def timer():
         return
     time-=1
     Timer(1,timer).start()
-    mainMenu.config(5,label="Time=" + str(time) +"s")
+    mainMenu.configure(5,label="Time= " +str(time) +"s")
 
 
 
