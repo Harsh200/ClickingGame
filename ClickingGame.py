@@ -7,6 +7,14 @@ def newGame():
 
 def clicked():
 
+
+
+
+def timer():
+
+
+
+
 window=Tk()
 time=10
 score=0
