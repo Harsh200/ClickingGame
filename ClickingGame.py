@@ -14,6 +14,7 @@ mainMenu.add_separator()
 mainMenu.add_command(label="Score=0")
 mainMenu.add_separator()
 mainMenu.add_command(label="Time= "+str(time)+"s")
+clickMe=Button(window,text="Click Me!")
 
 
 window.mainloop()
