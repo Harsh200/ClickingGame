@@ -24,6 +24,7 @@ def clicked():
 
 
 def timer():
+    global time
 
 
 
