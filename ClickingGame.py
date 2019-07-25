@@ -2,6 +2,8 @@ from tkinter import *
 
 def newGame():
     print("New Game")
+    time=10
+    score=0
 
 
 
