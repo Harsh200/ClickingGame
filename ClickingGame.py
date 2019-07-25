@@ -25,6 +25,8 @@ def clicked():
 
 def timer():
     global time
+    if time ==0:
+        clickMe.place_forget()
 
 
 
