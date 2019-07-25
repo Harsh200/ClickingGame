@@ -6,6 +6,7 @@ score=0
 windowWidth=600
 windowHeight=600
 buttonWidth=80
+buttonHeight=80
 window.geometry(str(windowWidth)+"x"+str(windowHeight))
 
 mainMenu=Menu(window)
