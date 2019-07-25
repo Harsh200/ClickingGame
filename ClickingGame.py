@@ -66,3 +66,4 @@ timer()
 window.mainloop()
 
 #End of our game
+#Game works
