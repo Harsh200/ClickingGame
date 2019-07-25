@@ -33,13 +33,14 @@ def timer():
         return
     time-=1
     Timer(1,timer).start()
-    mainMenu.configure(5,label="Time= " +str(time) +"s")
+    mainMenu.entryconfigure(5,label="Time= " +str(time) +"s")
 
 
 
 
 
 window=Tk()
+window.title("Clciking Game")
 time=10
 score=0
 windowWidth=600
@@ -63,3 +64,5 @@ timer()
 
 
 window.mainloop()
+
+#End of our game
