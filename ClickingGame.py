@@ -11,6 +11,7 @@ mainMenu=Menu(window)
 window.config(menu=mainMenu)
 mainMenu.add_command(label="New Game",command=newGame)
 mainMenu.add_separator()
+mainMenu.add_command(label="Score=0")
 
 
 window.mainloop()
