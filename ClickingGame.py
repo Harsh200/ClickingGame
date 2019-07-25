@@ -1,4 +1,5 @@
 from tkinter import *
+from random import randint
 
 def newGame():
     global time,score
@@ -14,6 +15,7 @@ def newGame():
 def clicked():
     global score
     score+=1
+
 
 
 
