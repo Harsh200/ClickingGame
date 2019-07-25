@@ -32,6 +32,8 @@ def timer():
         clickMe.place_forget()
         return
     time-=1
+    Timer(1,timer).start()
+    mainMenu.config(5,label="Time=" + str(time) +"s")
 
 
 
@@ -55,7 +57,9 @@ mainMenu.add_separator()
 mainMenu.add_command(label="Time= "+str(time)+"s")
 clickMe=Button(window,text="Click Me!",
                bg="Green",fg="White",padx=buttonWidth/2,pady=buttonHeight/2,command=clicked)
+
 clickMe.place(x=windowWidth/2,y=windowHeight/2)
+timer()
 
 
 window.mainloop()
