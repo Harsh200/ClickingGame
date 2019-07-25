@@ -13,6 +13,7 @@ def newGame():
 
 def clicked():
     global score
+    score+=1
 
 
 
