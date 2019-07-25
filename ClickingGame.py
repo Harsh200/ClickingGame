@@ -7,5 +7,7 @@ windowWidth=600
 windowHeight=600
 window.geometry(str(windowWidth)+"x"+str(windowHeight))
 
+mainmenu=Menu(window)
+
 
 window.mainloop()
