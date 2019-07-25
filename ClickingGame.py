@@ -2,6 +2,11 @@ from tkinter import *
 
 def newGame():
 
+
+
+
+def clicked():
+
 window=Tk()
 time=10
 score=0
